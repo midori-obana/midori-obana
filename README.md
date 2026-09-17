@@ -5,7 +5,9 @@
 <!-- ============================================================ -->
  
 <div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF9EC4,50:FFD166,100:7EC8E3&height=220&section=header&text=Bem-vindo(a)%20%C3%A0%20minha%20vila!&fontSize=42&fontColor=4A3826&fontAlignY=38&desc=%F0%9F%8C%BC%20pegue%20um%20caf%C3%A9%20e%20fique%20%C3%A0%20vontade%20%F0%9F%8D%83&descSize=18&descAlignY=58&animation=fadeIn" alt="Bem-vindo(a) à minha vila!" />
+
+<img width="100%" src="assets/header.svg" alt="Bem-vindo(a) à minha vila! [SEU NOME] · Desenvolvedor(a) Full Stack" />
+<img src="https://readme-typing-svg.demolab.com?font=VT323&size=26&duration=3500&pause=1200&color=4A3826&center=true&vCenter=true&width=640&height=60&lines=*+Uma+nova+pessoa+chegou+%C3%A0+vila!;*+Ela+carrega+TypeScript+e+Java+na+mochila...;*+Voc%C3%AA+se+sente+cheio(a)+de+determina%C3%A7%C3%A3o." alt="Caixa de diálogo digitando" />
 
 ### 🏠 INGRID OBANA
 
@@ -128,10 +130,7 @@
 
 <div align="center">
 
-🌼 🍃 🌷 🍃 🌼
 
-**Obrigado pela visita! Volte sempre 🌷**
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7EC8E3,50:FFD166,100:FF9EC4&height=120&section=footer" alt="" />
-
+<img width="100%" src="assets/footer.svg" alt="🌼 🍃 🌷 🍃 🌼 /n Obrigado pela visita! Volte sempre 🌷" />
 </div>
