@@ -1,0 +1,39 @@
+name: Atualizar cards da vila
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # todo dia, de madrugada
+  workflow_dispatch: # permite rodar manualmente pela aba Actions
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Gerar card de estatísticas
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&locale=pt-br&bg_color=FDF6E9&title_color=FF9EC4&text_color=4A3826&icon_color=8ED1A0&border_color=FFD166&border_radius=12"
+          path: assets/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Gerar card de linguagens
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: "username=${{ github.repository_owner }}&layout=compact&langs_count=6&locale=pt-br&bg_color=FDF6E9&title_color=7EC8E3&text_color=4A3826&border_color=FFD166&border_radius=12"
+          path: assets/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Salvar cards no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg assets/top-langs.svg
+          git commit -m "Atualiza cards da vila" || exit 0
+          git push
