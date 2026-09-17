@@ -127,10 +127,10 @@
 </div>
 
 <br>
-
 <div align="center">
 
+🌼 🍃 🌷 🍃 🌼
 
+<img width="100%" src="assets/footer.svg" alt="Obrigado pela visita! Volte sempre" />
 
-<img width="100%" src="assets/footer.svg" alt="🌼 🍃 🌷 🍃 🌼 /n Obrigado pela visita! Volte sempre 🌷" />
 </div>
