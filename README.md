@@ -95,9 +95,8 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=midori-obana&show_icons=true&include_all_commits=true&count_private=true&locale=pt-br&bg_color=FDF6E9&title_color=FF9EC4&text_color=4A3826&icon_color=8ED1A0&border_color=FFD166&border_radius=12" alt="Estatísticas do GitHub" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=midori-obana&layout=compact&langs_count=6&locale=pt-br&bg_color=FDF6E9&title_color=7EC8E3&text_color=4A3826&border_color=FFD166&border_radius=12" alt="Linguagens mais usadas" />
-
+<img height="170" src="assets/stats.svg" alt="Estatísticas do GitHub" />
+<img height="170" src="assets/top-langs.svg" alt="Linguagens mais usadas" />
 <br><br>
 
 <img src="https://streak-stats.demolab.com?user=midori-obana&locale=pt_BR&background=FDF6E9&border=FFD166&ring=FF9EC4&fire=FFD166&currStreakNum=4A3826&sideNums=4A3826&currStreakLabel=4A3826&sideLabels=4A3826&dates=8B7355&stroke=7EC8E3&border_radius=12" alt="Sequência de commits" />
