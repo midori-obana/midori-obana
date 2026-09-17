@@ -6,12 +6,7 @@
  
 <div align="center">
 
-<img width="100%" src="assets/header.svg" alt="Bem-vindo(a) à minha vila! [SEU NOME] · Desenvolvedor(a) Full Stack" />
-<img src="https://readme-typing-svg.demolab.com?font=VT323&size=26&duration=3500&pause=1200&color=4A3826&center=true&vCenter=true&width=640&height=60&lines=*+Uma+nova+pessoa+chegou+%C3%A0+vila!;*+Ela+carrega+TypeScript+e+Java+na+mochila...;*+Voc%C3%AA+se+sente+cheio(a)+de+determina%C3%A7%C3%A3o." alt="Caixa de diálogo digitando" />
-
-### 🏠 INGRID OBANA
-
-**Desenvolvedora Full Stack** · 📍 Belo Horizonte - Brasil
+<img width="100%" src="assets/header.svg" alt="Bem-vindo(a) à minha vila! Ingrid Obana · Desenvolvedora Full Stack" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=3500&pause=1200&color=4A3826&center=true&vCenter=true&width=640&height=60&lines=*+Uma+nova+pessoa+chegou+%C3%A0+vila!;*+Ela+carrega+TypeScript+e+Java+na+mochila...;*+Voc%C3%AA+se+sente+cheio(a)+de+determina%C3%A7%C3%A3o." alt="Caixa de diálogo digitando" />
 
